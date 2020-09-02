@@ -2,7 +2,6 @@
     <head>
         <title>Warren Megger Art</title>
         <link rel = "stylesheet" type = "text/css" href = "style.css" />
-        <script type = "text/javascript" src = "script.js"></script>
         <style>
             #sliderbox {
                 position: relative;
@@ -77,6 +76,12 @@
                     <input style="position:absolute; top: 90%; left: 30%; width:40%;" type="text" id="userInput" />
                     <input style="position:absolute; top: 95%; left: 30%; width:40%;" type="submit" onclick="othername();" />
                 </form>
+                <script>
+                    function othername() {
+                        var input = document.getElementById("userInput").value;
+                        window.open('mailto:warrenmegger@gmail.com?subject=Commission&body='+input)
+                    }
+                </script>
                 <p><br/></p>
             </div>
             <div class = bottom>
