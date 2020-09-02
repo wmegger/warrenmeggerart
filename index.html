@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Warren Megger Art</title>
+        <link type = text/css rel = stylesheet href = warrenmeggerart.css />
+        <script type = "text/javascript" src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/warrenmeggerart.js"></script>
+        <style>
+            #sliderbox {
+                position: relative;
+                width: 3200px;
+                animation-name: slideranimation;
+                animation-duration: 60s;
+            }
+            #sliderbox img {
+                float: left;
+            }
+            @keyframes slideranimation {
+                0% {
+                    left: 0px;
+                }
+                8.3% {
+                    left: 0px;
+                }
+                16.6% {
+                    left: -300px;
+                }
+                25% {
+                    left: -300px;
+                }
+                33.3% {
+                    left: -600px;
+                }
+                41.6% {
+                    left: -600px;
+                }
+                50% {
+                    left: -1100px;
+                }
+                58.3% {
+                    left: -1100px;
+                }
+                66.6% {
+                    left: -1400px;
+                }
+                75% {
+                    left: -1400px;
+                }
+                83.3% {
+                    left: -1700px;
+                }
+                91.6% { 
+                    left: -1700px;
+                }  
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+            <div class = "heading">
+                <h1><i>Art by Warren Megger</i></h1>
+            </div>
+            <div id = "sliderbox">
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/jesus.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/mikeshinoda.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/mms.jpg" width = 500px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/tylerjoseph.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/teddyanddoggy.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/flower.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/elephantprint.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/meltingface.jpg" width = 225px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/babydoll.jpg" width = 300px height = 300px/>
+                <img src = "/Users/elizabethcucuzzella/Desktop/coding projects 2020/warren website 09:01:2020/skull.jpg" width = 300px height = 300px/>
+            </div>
+            <div class = "commissions">
+                <p><br/><b><i>Requests for Commissions: </i></b></p>
+                <div class = "plain"><p><i>Enter your name and any requests you have for commissions below and an email will be sent to Warren with the details</i></p></div>
+                <form id="form" onsubmit="return false;">
+                    <input style="position:absolute; top: 90%; left: 30%; width:40%;" type="text" id="userInput" />
+                    <input style="position:absolute; top: 95%; left: 30%; width:40%;" type="submit" onclick="othername();" />
+                </form>
+                <p><br/></p>
+            </div>
+            <div class = bottom>
+                <p>follow <a href = "https://www.instagram.com/warrenmegger/">@warrenmegger</a> • site designed by elizabeth cucuzzella</p>
+            </div>
+        </div>
+    </body>
+</html>
